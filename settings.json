@@ -1,0 +1,48 @@
+// surendar yama theme, Material theme icons, Error Lens, Fluent Icons, live Server and import cost extension required
+{
+    "workbench.colorTheme": "surendar",
+    "editor.fontFamily": "operator mono lig",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "editor.lineHeight": 38,
+    "editor.cursorStyle": "block",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground":"#6BD968"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              //following will be in italic (=FlottFlott)
+              "comment",
+              "entity.name.type.class", //class names
+              "keyword", //import, export, return…
+              "constant", //String, Number, Boolean…, this, super
+              "storage.modifier", //static keyword
+              "storage.type.class.js", //class keyword
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "scope": [
+              //following will be excluded from italics (VSCode has some defaults for italics)
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json"
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+      "liveServer.settings.donotShowInfoMsg": true
+}
