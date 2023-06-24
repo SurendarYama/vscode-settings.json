@@ -3,7 +3,6 @@
     "workbench.colorTheme": "surendar",
     "editor.fontFamily": "operator mono lig",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "workbench.sideBar.location": "right",
     "editor.minimap.enabled": false,
     "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme": "eq-material-theme-icons",
