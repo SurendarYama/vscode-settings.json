@@ -9,7 +9,9 @@
     "editor.lineHeight": 38,
     "editor.cursorStyle": "block",
     "workbench.colorCustomizations": {
-        "editorCursor.foreground":"#6BD968"
+      "editorCursor.foreground":"#6BD968",
+      "activityBar.activeBorder": "#fecc1b",
+      "icon.foreground": "#fecc1b"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
