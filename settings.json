@@ -1,4 +1,16 @@
-// surendar yama theme, Material theme icons, Error Lens, Fluent Icons,Astro, live Server and import cost extension required
+/* 
+  surendar yama theme,
+   Angular Language Service,
+   Fluent Icons,
+   Astro, 
+   Live Server,
+   import cost.
+   GitLens,
+   Studio Icons,
+   Svelte for Vs Code and
+   Tailwind Css IntelliSense
+   extensions required
+*/
 {
   "workbench.colorTheme": "surendar",
   "editor.fontFamily": "operator mono lig",
