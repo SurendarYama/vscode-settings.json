@@ -129,7 +129,8 @@
             "source.js",
             "source.ts",
             "string.quoted.double.html",
-            "text.html.derivative"
+            "text.html.derivative",
+            "source.json",
           ],
           "settings": {
             "fontStyle": "italic"
