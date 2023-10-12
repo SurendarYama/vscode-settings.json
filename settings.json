@@ -19,6 +19,8 @@
   "workbench.productIconTheme": "fluent-icons",
   "editor.lineHeight": 38,
   "editor.cursorStyle": "block",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 17,
   "workbench.colorCustomizations": {
     "editorCursor.foreground":"#6BD968",
     "activityBar.activeBorder": "#fecc1b",
