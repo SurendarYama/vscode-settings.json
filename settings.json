@@ -1,16 +1,5 @@
 /* 
-   Surendar yama theme,
-   Angular Language Service,
-   Fluent Icons,
-   Astro, 
-   Live Server,
-   Import cost.
-   GitLens,
-   Studio Icons,
-   Prettier,
-   Error Lens and
-   Tailwind Css IntelliSense
-   extensions required
+   use Surendar Yama Extension Pack
 */
 {
   "workbench.colorTheme": "surendar",
@@ -136,10 +125,11 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.linux": "bash",
   "workbench.startupEditor": "none",
-  "window.zoomLevel": 1,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "css.lint.unknownAtRules": "ignore",
   "workbench.iconTheme": "vscode-icon-theme",
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "window.zoomLevel": 2,
+  "editor.guides.bracketPairs": true
 }
