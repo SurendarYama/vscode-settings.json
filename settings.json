@@ -15,7 +15,7 @@
     "editorCursor.foreground": "#fecc1b",
     "activityBar.activeBorder": "#fecc1b",
     "icon.foreground": "#fecc1b",
-    "editorSuggestWidget.selectedBackground": "#c084fc"
+    "editorSuggestWidget.selectedBackground": "#4a044e"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
