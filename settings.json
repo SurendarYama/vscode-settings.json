@@ -146,6 +146,12 @@
         "settings": {
           "foreground": "#a3e635"
         }
+      },
+      {
+        "scope": ["string", "punctuation"],
+        "settings": {
+          "foreground": "#a3e635"
+        }
       }
     ]
   },
