@@ -7,12 +7,12 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.minimap.enabled": false,
   "workbench.productIconTheme": "fluent-icons",
-  "editor.lineHeight": 37,
+  "editor.lineHeight": 40,
   "editor.cursorStyle": "block",
   "editor.fontWeight": "bold",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#6BD968",
+    "editorCursor.foreground": "#fecc1b",
     "activityBar.activeBorder": "#fecc1b",
     "icon.foreground": "#fecc1b"
   },
@@ -116,6 +116,35 @@
         "settings": {
           "fontStyle": "italic"
         }
+      },
+      {
+        "scope": [
+          "variable.other.property.js",
+          "variable.other.object.property.js",
+          "variable.other.readwrite.alias.js",
+          "meta.block.js",
+          "meta.import.js",
+          "source.js"
+        ],
+        "settings": {
+          "foreground": "#fb923c"
+        }
+      },
+      {
+        "scope": ["meta.import.js", "entity.name.function.js", "source.js"],
+        "settings": {
+          "foreground": "#fecc1b"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.string.begin.js",
+          "punctuation.definition.string.end.js",
+          "string.quoted.double.js"
+        ],
+        "settings": {
+          "foreground": "#a3e635"
+        }
       }
     ]
   },
@@ -130,6 +159,8 @@
   "css.lint.unknownAtRules": "ignore",
   "workbench.iconTheme": "vscode-icon-theme",
   "git.confirmSync": false,
-  "window.zoomLevel": 2,
-  "editor.guides.bracketPairs": true
+  "window.zoomLevel": 1,
+  "editor.guides.bracketPairs": true,
+  "editor.tabSize": 2,
+  "terminal.integrated.env.windows": {}
 }
