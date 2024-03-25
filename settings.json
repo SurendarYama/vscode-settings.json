@@ -152,6 +152,21 @@
         "settings": {
           "foreground": "#a3e635"
         }
+      },
+      {
+        "scope": [
+          "punctuation.support.type.property-name.begin.json.comments",
+          "punctuation.support.type.property-name.end.json.comments",
+          "support.type.property-name.json.comments",
+          "string.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "source.json.comments"
+        ],
+        "settings": {
+          "foreground": "#C792EA"
+        }
       }
     ]
   },
