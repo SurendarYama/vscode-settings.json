@@ -14,7 +14,8 @@
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#fecc1b",
     "activityBar.activeBorder": "#fecc1b",
-    "icon.foreground": "#fecc1b"
+    "icon.foreground": "#fecc1b",
+    "editorSuggestWidget.selectedBackground": "#a21caf"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
