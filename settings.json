@@ -15,7 +15,14 @@
     "editorCursor.foreground": "#fecc1b",
     "activityBar.activeBorder": "#fecc1b",
     "icon.foreground": "#fecc1b",
-    "editorSuggestWidget.selectedBackground": "#4a044e"
+    "editorSuggestWidget.selectedBackground": "#4a044e",
+    // surendar yama black color theme...
+    "editor.background": "#0d0d0d",
+    "statusBar.background": "#0d0d0d",
+    "sideBar.background": "#0d0d0d",
+    "titleBar.activeBackground": "#0d0d0d",
+    "tab.inactiveBackground": "#0d0d0d",
+    "activityBar.background": "#0d0d0d"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
