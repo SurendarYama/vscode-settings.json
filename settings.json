@@ -15,14 +15,15 @@
     "editorCursor.foreground": "#fecc1b",
     "activityBar.activeBorder": "#fecc1b",
     "icon.foreground": "#fecc1b",
-    "editorSuggestWidget.selectedBackground": "#4a044e",
+    "editorSuggestWidget.selectedBackground": "#0d0d0d",
     // surendar yama black color theme...
     "editor.background": "#0d0d0d",
     "statusBar.background": "#0d0d0d",
     "sideBar.background": "#0d0d0d",
     "titleBar.activeBackground": "#0d0d0d",
     "tab.inactiveBackground": "#0d0d0d",
-    "activityBar.background": "#0d0d0d"
+    "activityBar.background": "#0d0d0d",
+    "dropdown.background": "#0d0d0d"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -132,14 +133,27 @@
           "variable.other.readwrite.alias.js",
           "meta.block.js",
           "meta.import.js",
-          "source.js"
+          "source.js",
+          "variable.other.property.ts",
+          "variable.other.object.property.ts",
+          "variable.other.readwrite.alias.ts",
+          "meta.block.ts",
+          "meta.import.ts",
+          "source.ts"
         ],
         "settings": {
           "foreground": "#fb923c"
         }
       },
       {
-        "scope": ["meta.import.js", "entity.name.function.js", "source.js"],
+        "scope": [
+          "meta.import.js",
+          "entity.name.function.js",
+          "source.js",
+          "meta.import.ts",
+          "entity.name.function.ts",
+          "source.ts"
+        ],
         "settings": {
           "foreground": "#fecc1b"
         }
@@ -148,7 +162,10 @@
         "scope": [
           "punctuation.definition.string.begin.js",
           "punctuation.definition.string.end.js",
-          "string.quoted.double.js"
+          "string.quoted.double.js",
+          "punctuation.definition.string.begin.ts",
+          "punctuation.definition.string.end.ts",
+          "string.quoted.double.ts"
         ],
         "settings": {
           "foreground": "#a3e635"
@@ -191,5 +208,6 @@
   "window.zoomLevel": 1,
   "editor.guides.bracketPairs": true,
   "editor.tabSize": 2,
-  "terminal.integrated.env.windows": {}
+  "terminal.integrated.env.windows": {},
+  "symbols.hidesExplorerArrows": false
 }
