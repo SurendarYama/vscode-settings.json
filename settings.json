@@ -209,5 +209,4 @@
   "editor.guides.bracketPairs": true,
   "editor.tabSize": 2,
   "terminal.integrated.env.windows": {},
-  "symbols.hidesExplorerArrows": false
 }
