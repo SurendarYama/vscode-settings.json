@@ -23,7 +23,8 @@
     "titleBar.activeBackground": "#0d0d0d",
     "tab.inactiveBackground": "#0d0d0d",
     "activityBar.background": "#0d0d0d",
-    "dropdown.background": "#0d0d0d"
+    "dropdown.background": "#0d0d0d",
+    "list.activeSelectionBackground": "#e52165"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -208,5 +209,5 @@
   "window.zoomLevel": 1,
   "editor.guides.bracketPairs": true,
   "editor.tabSize": 2,
-  "terminal.integrated.env.windows": {},
+  "terminal.integrated.env.windows": {}
 }
