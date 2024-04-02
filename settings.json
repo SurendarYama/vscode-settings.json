@@ -192,6 +192,6 @@
   "editor.guides.bracketPairs": true,
   "editor.tabSize": 2,
   "terminal.integrated.env.windows": {},
-  "workbench.colorTheme": "Surendar Yama Buddy",
+  "workbench.colorTheme": "My Buddy",
   "workbench.iconTheme": "vscode-icon-theme"
 }
