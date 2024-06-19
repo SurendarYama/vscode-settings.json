@@ -1,5 +1,6 @@
 /* 
-   use Surendar Yama Extension Pack,APC Customize UI++,Aura Dracula Spirit (Soft) and material-icon-theme
+   use Surendar Yama Extension Pack,
+   APC Customize UI++,Aura Dracula Spirit (Soft) and material-icon-theme
 */
 {
   "editor.fontFamily": "operator mono lig",
@@ -108,6 +109,72 @@
         "settings": {
           "fontStyle": "italic"
         }
+      },
+      {
+        "scope": [
+          "variable.other.property.js",
+          "variable.other.object.property.js",
+          "variable.other.readwrite.alias.js",
+          "meta.block.js",
+          "meta.import.js",
+          "source.js",
+          "variable.other.property.ts",
+          "variable.other.object.property.ts",
+          "variable.other.readwrite.alias.ts",
+          "meta.block.ts",
+          "meta.import.ts",
+          "source.ts"
+        ],
+        "settings": {
+          "foreground": "#fb923c"
+        }
+      },
+      {
+        "scope": [
+          "meta.import.js",
+          "entity.name.function.js",
+          "source.js",
+          "meta.import.ts",
+          "entity.name.function.ts",
+          "source.ts"
+        ],
+        "settings": {
+          "foreground": "#fecc1b"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.string.begin.js",
+          "punctuation.definition.string.end.js",
+          "string.quoted.double.js",
+          "punctuation.definition.string.begin.ts",
+          "punctuation.definition.string.end.ts",
+          "string.quoted.double.ts"
+        ],
+        "settings": {
+          "foreground": "#a3e635"
+        }
+      },
+      {
+        "scope": ["string", "punctuation"],
+        "settings": {
+          "foreground": "#a3e635"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.support.type.property-name.begin.json.comments",
+          "punctuation.support.type.property-name.end.json.comments",
+          "support.type.property-name.json.comments",
+          "string.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "source.json.comments"
+        ],
+        "settings": {
+          "foreground": "#C792EA"
+        }
       }
     ]
   },
@@ -124,19 +191,17 @@
   "window.zoomLevel": 2,
   "editor.guides.bracketPairs": true,
   "files.autoSave": "afterDelay",
-  "svelte.enable-ts-plugin": true,
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.colorTheme": "surendar",
   // new config:
-  "workbench.colorCustomizations": {
-    "editorSuggestWidget.selectedBackground": "#231739",
-    "sideBar.background": "#191521",
-    "list.activeSelectionBackground": "#231739",
-    "list.inactiveSelectionBackground": "#231739",
-    "list.focusBackground": "#231739",
-    "list.hoverBackground": "#231739",
-    "terminalCursor.foreground": "#C45DFF"
-  },
-
+  // "workbench.colorCustomizations": {
+  //   "editorSuggestWidget.selectedBackground": "#231739",
+  //   "sideBar.background": "#191521",
+  //   "list.activeSelectionBackground": "#231739",
+  //   "list.inactiveSelectionBackground": "#231739",
+  //   "list.focusBackground": "#231739",
+  //   "list.hoverBackground": "#231739",
+  //   "terminalCursor.foreground": "#C45DFF"
+  // },
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
@@ -161,8 +226,8 @@
   "editor.detectIndentation": false,
   "breadcrumbs.enabled": false,
   "explorer.compactFolders": false,
-  "git.decorations.enabled": false,
-  "scm.diffDecorations": "none",
+  // "git.decorations.enabled": false,
+  // "scm.diffDecorations": "none",
   "files.insertFinalNewline": true,
   "terminal.integrated.lineHeight": 1.8,
   "terminal.integrated.fontSize": 13,
