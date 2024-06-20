@@ -1,14 +1,18 @@
 /* 
-   use Surendar Yama Extension Pack
+   use Surendar Yama Extension Pack,
+   APC Customize UI++, Surendar Yama theme and material-icon-theme
 */
 {
   "editor.fontFamily": "operator mono lig",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.minimap.enabled": false,
-  "editor.lineHeight": 40,
+  "editor.lineHeight": 3.5,
   "editor.cursorStyle": "block",
-  "editor.fontWeight": "bold",
   "editor.fontSize": 13,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ffff00"
+  },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -188,10 +192,46 @@
   "editor.formatOnSave": true,
   "css.lint.unknownAtRules": "ignore",
   "git.confirmSync": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "editor.guides.bracketPairs": true,
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "surendar",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.tips.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+  "editor.showFoldingControls": "never",
+  "editor.overviewRulerBorder": false,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.tabSize": 2,
-  "terminal.integrated.env.windows": {},
-  "workbench.colorTheme": "My Buddy",
-  "workbench.iconTheme": "vscode-icon-theme"
+  "editor.detectIndentation": false,
+  "breadcrumbs.enabled": false,
+  "explorer.compactFolders": false,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.lineHeight": 1.8,
+  "terminal.integrated.fontSize": 13,
+  "apc.font.family": "operator mono lig",
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 30,
+    "itemSize": 30,
+    "itemMargin": 10
+  },
+  "apc.listRow": {
+    "lists": ["explorer-folders-view", "quick-input-list", "results"],
+    "height": 30,
+    "fontSize": 13
+  }
 }
