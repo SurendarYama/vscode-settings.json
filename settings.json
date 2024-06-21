@@ -1,6 +1,6 @@
 /* 
    use Surendar Yama Extension Pack,
-   APC Customize UI++, Surendar Yama theme and material-icon-theme
+   APC Customize UI++,Aura Dracula Spirit (Soft) and material-icon-theme
 */
 {
   "editor.fontFamily": "operator mono lig",
@@ -106,9 +106,13 @@
           "variable.other.readwrite.ts",
           "source.js",
           "source.ts",
+          "source.jsx",
+          "source.tsx",
           "string.quoted.double.html",
           "text.html.derivative",
-          "source.json"
+          "source.json",
+          "source.vue",
+          "source.svelte"
         ],
         "settings": {
           "fontStyle": "italic"
