@@ -18,6 +18,7 @@
       {
         "scope": [
           "text.html",
+          "source.ini",
           "source.pug",
           "source.css",
           "source.scss",
@@ -98,6 +99,18 @@
         ],
         "settings": {
           "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": ["source.ini"],
+        "settings": {
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": ["keyword.other.definition.ini"],
+        "settings": {
+          "foreground": "#fecc1b"
         }
       }
     ]
