@@ -17,7 +17,7 @@
     "textMateRules": [
       {
         "scope": [
-          "source.html",
+          "text.html",
           "source.pug",
           "source.css",
           "source.scss",
