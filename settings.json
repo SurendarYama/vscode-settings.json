@@ -2,18 +2,38 @@
    use Surendar Yama Extension Pack.
 */
 {
-  "editor.fontFamily": "'Monaspace Radon', monospace",
+  "editor.fontFamily": "operator mono lig",
+  // "editor.fontFamily": "'Monaspace Radon', monospace",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.minimap.enabled": false,
   "editor.lineHeight": 3.5,
   "editor.cursorStyle": "block",
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffff00",
     "terminalCursor.foreground": "#ffff00"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
+      {
+        "scope": [
+          "source.html",
+          "source.pug",
+          "source.css",
+          "source.scss",
+          "source.js",
+          "source.jsx",
+          "source.ts",
+          "source.tsx",
+          "source.json",
+          "source.svelte",
+          "source.vue",
+          "source.astro"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
       {
         "scope": [
           "variable.other.property.js",
@@ -132,11 +152,10 @@
   "apc.listRow": {
     "lists": ["explorer-folders-view", "quick-input-list", "results"],
     "height": 30,
-    "fontSize": 13
+    "fontSize": 14
   },
   "editor.stickyScroll.scrollWithEditor": false,
   "workbench.tree.enableStickyScroll": false,
   "editor.hover.sticky": false,
-  "editor.stickyScroll.enabled": false,
-  "svelte.ask-to-enable-ts-plugin": false
+  "editor.stickyScroll.enabled": false
 }
