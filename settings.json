@@ -8,7 +8,7 @@
   "editor.minimap.enabled": false,
   "editor.lineHeight": 3.5,
   "editor.cursorStyle": "block",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffff00",
     "terminalCursor.foreground": "#ffff00"
@@ -116,7 +116,7 @@
     ]
   },
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
+  "editor.fontLigatures": true,
   "git.autofetch": true,
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.linux": "bash",
@@ -125,12 +125,11 @@
   "editor.formatOnSave": true,
   "css.lint.unknownAtRules": "ignore",
   "git.confirmSync": false,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "editor.guides.bracketPairs": true,
   "files.autoSave": "afterDelay",
   "workbench.colorTheme": "surendar",
-  "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.iconTheme": "vscode-icon-theme",
   "workbench.tree.renderIndentGuides": "none",
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
@@ -154,7 +153,7 @@
   "explorer.compactFolders": false,
   "files.insertFinalNewline": true,
   "terminal.integrated.lineHeight": 1.8,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "apc.font.family": "operator mono lig",
   "apc.activityBar": {
     "position": "bottom",
@@ -165,7 +164,7 @@
   "apc.listRow": {
     "lists": ["explorer-folders-view", "quick-input-list", "results"],
     "height": 30,
-    "fontSize": 14
+    "fontSize": 13
   },
   "editor.stickyScroll.scrollWithEditor": false,
   "workbench.tree.enableStickyScroll": false,
