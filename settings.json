@@ -121,6 +121,8 @@
           "storage.type.ts",
           "storage.type.class.ts",
           "meta.class.ts",
+          "entity.name.type.alias.ts",
+          "meta.type.declaration.ts",
           "source.ts",
           "storage.type.js",
           "meta.var.expr.js",
