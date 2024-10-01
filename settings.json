@@ -12,8 +12,9 @@
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffff00",
     "terminalCursor.foreground": "#ffff00",
-    "editorSuggestWidget.selectedBackground": "#2E073F",
-    "editorSuggestWidget.highlightForeground": "#2E073F"
+    "editorSuggestWidget.background": "#2E073F",
+    "editorSuggestWidget.selectedBackground": "#e52165",
+    "editorSuggestWidget.highlightForeground": "#e52165"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
