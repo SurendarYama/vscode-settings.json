@@ -6,11 +6,14 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.minimap.enabled": false,
   "editor.lineHeight": 3.5,
+  "editor.linkedEditing": true,
   "editor.cursorStyle": "block",
   "editor.fontSize": 13,
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#ffff00",
-    "terminalCursor.foreground": "#ffff00"
+    "terminalCursor.foreground": "#ffff00",
+    "editorSuggestWidget.selectedBackground": "#2E073F",
+    "editorSuggestWidget.highlightForeground": "#2E073F"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -111,6 +114,23 @@
         "settings": {
           "foreground": "#fecc1b"
         }
+      },
+      {
+        "scope": [
+          "meta.var.expr.ts",
+          "storage.type.ts",
+          "storage.type.class.ts",
+          "meta.class.ts",
+          "source.ts",
+          "storage.type.js",
+          "meta.var.expr.js",
+          "storage.type.class.js",
+          "meta.class.js",
+          "source.js"
+        ],
+        "settings": {
+          "foreground": "#fb923c"
+        }
       }
     ]
   },
@@ -141,5 +161,8 @@
     "lists": ["explorer-folders-view", "quick-input-list", "results"],
     "height": 30,
     "fontSize": 13
-  }
+  },
+  "files.autoSave": "afterDelay",
+  "update.mode": "manual",
+  "svelte.enable-ts-plugin": true
 }
