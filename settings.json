@@ -3,6 +3,25 @@
 */
 {
   "editor.fontFamily": "operator mono lig",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascript",
+    "typescript": "typescript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ":\\s*?[\"'`]([^\"'`]*).*?,",
+    ["classList.(?:add|remove)\\(([^)]*)\\)", "(?:'|\"|`)([^\"'`]*)(?:'|\"|`)"],
+    "(?:const|let|var)\\s+[\\w$_][_\\w\\d]*\\s*=\\s*['\\\"](.*?)['\\\"]",
+    [
+      "(?:\\b(?:const|let|var)\\s+)?[\\w$_]*(?:[Ss]tyles|[Cc]lasses|[Cc]lassnames)[\\w\\d]*\\s*(?:=|\\+=)\\s*['\"]([^'\"]*)['\"]"
+    ],
+    ["Styles\\s*(?::\\s*[^=]+)?\\s*=\\s*([^;]*);", "['\"`]([^'\"`]*)['\"`]"]
+  ],
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.minimap.enabled": false,
   "editor.lineHeight": 3.5,
@@ -14,7 +33,7 @@
     "terminalCursor.foreground": "#ffff00",
     "editorSuggestWidget.background": "#2E073F",
     "editorSuggestWidget.selectedBackground": "#e52165",
-    "editorSuggestWidget.highlightForeground": "#e52165"
+    "editorSuggestWidget.highlightForeground": "#ffff00"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -166,6 +185,5 @@
     "fontSize": 13
   },
   "files.autoSave": "afterDelay",
-  "update.mode": "manual",
-  "svelte.enable-ts-plugin": true
+  "update.mode": "manual"
 }
