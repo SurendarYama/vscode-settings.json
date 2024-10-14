@@ -35,7 +35,10 @@
     "terminalCursor.foreground": "#ffff00",
     "editorSuggestWidget.background": "#2E073F",
     "editorSuggestWidget.selectedBackground": "#e52165",
-    "editorSuggestWidget.highlightForeground": "#ffff00"
+    "editorSuggestWidget.highlightForeground": "#ffff00",
+    "quickInput.background": "#ec4899",
+    "quickInput.foreground": "#ffffff",
+    "quickInputTitle.background": "#ffff00"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -169,23 +172,17 @@
   "css.lint.unknownAtRules": "ignore",
   "window.zoomLevel": 1,
   "editor.guides.bracketPairs": true,
-  "workbench.colorTheme": "surendar",
-  "workbench.iconTheme": "vscode-icon-theme",
   "workbench.sideBar.location": "right",
   "terminal.integrated.lineHeight": 1.8,
   "terminal.integrated.fontSize": 13,
-  "apc.font.family": "operator mono lig",
-  "apc.activityBar": {
-    "position": "bottom",
-    "size": 30,
-    "itemSize": 30,
-    "itemMargin": 10
-  },
-  "apc.listRow": {
-    "lists": ["explorer-folders-view", "quick-input-list", "results"],
-    "height": 30,
-    "fontSize": 13
-  },
   "files.autoSave": "afterDelay",
-  "update.mode": "manual"
+  "update.mode": "manual",
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/suren/Documents/Codebase/vscode-theme-and-extension-pack/css-and-js-loader/custom.css",
+    "file:///C:/Users/suren/Documents/Codebase/vscode-theme-and-extension-pack/css-and-js-loader/custom.js"
+  ],
+  "workbench.iconTheme": "vscode-icon-theme",
+  "workbench.colorTheme": "surendar",
+  "workbench.activityBar.location": "bottom",
+  "editor.stickyScroll.enabled": false
 }
