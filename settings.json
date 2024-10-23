@@ -2,6 +2,7 @@
    use Surendar Yama Extension Pack.
 */
 {
+  "emmet.includeLanguages": { "analog": "html" },
   "editor.fontFamily": "operator mono lig",
   "editor.quickSuggestions": {
     "strings": "on"
@@ -36,7 +37,7 @@
     "editorSuggestWidget.background": "#2E073F",
     "editorSuggestWidget.selectedBackground": "#e52165",
     "editorSuggestWidget.highlightForeground": "#ffff00",
-    "quickInput.background": "#ec4899",
+    "quickInput.background": "#320d3e",
     "quickInput.foreground": "#ffffff",
     "quickInputTitle.background": "#ffff00"
   },
@@ -183,6 +184,9 @@
   ],
   "workbench.iconTheme": "vscode-icon-theme",
   "workbench.colorTheme": "surendar",
-  "workbench.activityBar.location": "bottom",
-  "editor.stickyScroll.enabled": false
+  "editor.stickyScroll.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "[analog]": {
+    "editor.defaultFormatter": "AnalogJS.vscode-analog"
+  }
 }
