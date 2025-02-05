@@ -1,6 +1,9 @@
 /* 
    use Surendar Yama Extension Pack.
 */
+/* 
+   use Surendar Yama Extension Pack.
+*/
 {
   "editor.fontFamily": "operator mono lig",
   "editor.quickSuggestions": {
@@ -72,14 +75,13 @@
   "files.autoSave": "afterDelay",
   "update.mode": "manual",
   "vscode_custom_css.imports": [
-    "file:///C:/Users/suren/Documents/Codebase/vscode-theme-and-extension-pack/css-and-js-loader/custom.css",
-    "file:///C:/Users/suren/Documents/Codebase/vscode-theme-and-extension-pack/css-and-js-loader/custom.js"
+    "file:///C:/Users/suren/Desktop/Codebase/css-and-js-loader/custom.css"
   ],
   "workbench.colorTheme": "One Dark Pro",
   "editor.stickyScroll.enabled": false,
   "git.openRepositoryInParentFolders": "never",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme",
-  "php.debug.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe",
-  "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe"
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme"
+  // "php.debug.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe",
+  // "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe"
 }
