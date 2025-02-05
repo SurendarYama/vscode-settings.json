@@ -72,7 +72,7 @@
   "files.autoSave": "afterDelay",
   "update.mode": "manual",
   "vscode_custom_css.imports": [
-    "file:///C:/Users/suren/Desktop/Codebase/css-and-js-loader/custom.css"
+    "file:///C:/Users/suren/Desktop/Codebase/personal/css-and-js-loader/custom.css"
   ],
   "workbench.colorTheme": "One Dark Pro",
   "editor.stickyScroll.enabled": false,
