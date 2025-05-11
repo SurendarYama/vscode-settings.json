@@ -2,7 +2,7 @@
    use Surendar Yama Extension Pack.
 */
 {
-  "editor.fontFamily": "operator mono lig",
+  "editor.fontFamily": "monaspace radon",
   "editor.quickSuggestions": {
     "strings": "on"
   },
@@ -23,30 +23,6 @@
     ["(?:twMerge|twJoin)\\(([^;]*)[\\);]", "[`'\"`]([^'\"`;]*)[`'\"`]"],
     ["twJoin\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"]
   ],
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "text.html",
-          "source.ini",
-          "source.pug",
-          "source.css",
-          "source.scss",
-          "source.js",
-          "source.jsx",
-          "source.ts",
-          "source.tsx",
-          "source.json",
-          "source.svelte",
-          "source.vue",
-          "source.astro"
-        ],
-        "settings": {
-          "fontStyle": "italic"
-        }
-      }
-    ]
-  },
   "typescript.tsserver.experimental.enableProjectDiagnostics": true,
   "tailwindCSS.emmetCompletions": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -78,7 +54,7 @@
   "editor.stickyScroll.enabled": false,
   "git.openRepositoryInParentFolders": "never",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "vscode-jetbrains-icon-theme"
-  // "php.debug.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe",
-  // "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-8.1.10-Win32-vs16-x64\\php.exe"
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+  "chat.agent.enabled": true,
+  "svelte.enable-ts-plugin": true
 }
